@@ -21,11 +21,11 @@ img {
     border-radius: 3% 0% 0% 3%;
 }
 
-.container{
+.container {
     display: inline-flex;
 }
 
-.text{
+.text {
     margin: 5%;
 }
 
@@ -44,6 +44,7 @@ h2 {
     font-size: small;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: gray;
+    letter-spacing: 3px;
 }
 
 .price {
@@ -66,8 +67,9 @@ h2 {
 button {
     background-color: green;
     color: white;
-    border-radius: 5%;
+    border-radius: 10px;
     border: none;
+    align-items: center;
     justify-content: center;
     display: flex;
     width: 100%;
