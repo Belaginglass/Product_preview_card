@@ -1,0 +1,75 @@
+body {
+    background-color: antiquewhite;
+}
+
+main {
+    background-color: white;
+    width: 80vh;
+    height: 60vh;
+    border-radius: 3%;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%)
+}
+
+img {
+    align-items: right;
+    width: 40vh;
+    height: 60vh;
+    border-radius: 3% 0% 0% 3%;
+}
+
+.container{
+    display: inline-flex;
+}
+
+.text{
+    margin: 5%;
+}
+
+h1,
+h2 {
+    align-items: start;
+    text-transform: uppercase;
+}
+
+p {
+    color: gray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    font-size: small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: gray;
+}
+
+.price {
+    display: inline-flex;
+    padding: 2%;
+}
+
+#atual {
+    color: green;
+    font-size: 30px;
+
+}
+
+#antigo {
+    padding: 10px;
+    text-decoration: line-through;
+    color: gray;
+}
+
+button {
+    background-color: green;
+    color: white;
+    border-radius: 5%;
+    border: none;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    height: 6vh;
+}
