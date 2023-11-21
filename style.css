@@ -1,28 +1,30 @@
-body {
-    background-color: antiquewhite;
+*{
+    padding: 0px;
+    margin: 0px;
 }
 
 main {
-    background-color: white;
-    width: 80vh;
-    height: 60vh;
+    background-color: antiquewhite;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background-color: whitesmoke;
+    width: 110vh;
+    height: 80vh;
     border-radius: 3%;
     display: flex;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateY(-50%) translateX(-50%)
+    justify-content: space-between;
 }
 
 img {
     align-items: right;
-    width: 40vh;
-    height: 60vh;
+    width: 50%;
+    height: 100%;
     border-radius: 3% 0% 0% 3%;
-}
-
-.container {
-    display: inline-flex;
 }
 
 .text {
@@ -35,16 +37,20 @@ h2 {
     text-transform: uppercase;
 }
 
-p {
-    color: gray;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
 h2 {
     font-size: small;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: gray;
     letter-spacing: 3px;
+    padding: 3px;
+}
+
+h1{
+    font-size: ;
+}
+p {
+    color: gray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .price {
@@ -69,9 +75,10 @@ button {
     color: white;
     border-radius: 10px;
     border: none;
+    display: flex;
     align-items: center;
     justify-content: center;
-    display: flex;
     width: 100%;
     height: 6vh;
+    margin: 10px;
 }
